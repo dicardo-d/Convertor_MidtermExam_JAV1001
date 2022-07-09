@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Convertor_MidtermExam</string>
+    <string-array name="Conversion">
+        <item>in to cm</item>
+        <item>cm to in</item>
+        <item>miles to km</item>
+        <item>km to miles</item>
+        <item>lb to kg</item>
+        <item>kg to lb</item>
+        <item>oz to gram</item>
+        <item>gram to oz</item>
+        <item>cups to liter</item>
+        <item>liter to cups</item>
+        <item>c to f</item>
+        <item>f to c</item>
+        <item>f to k</item>
+</string-array>
+</resources>
