@@ -1,3 +1,7 @@
+//Midterm project - JAV1001
+// A00254753 - Divya Vasudev Khemani
+
+
 package com.example.convertor_midtermexam;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,11 +42,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         EditText yourEditText = (EditText) findViewById(R.id.editText1);
         EditText yourEditText2 = (EditText) findViewById(R.id.editText2);
-
+      
+// creating a button on which user can click and get the values converted
+      
         Button button = (Button) findViewById(R.id.calCButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
+              
+// creating if else statements to pass the math values for units used
+              
                 if (yourEditText.getText().toString().isEmpty()) {
                     yourEditText2.setText("please enter a valid value");
                 }
@@ -95,10 +103,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 else {
                     yourEditText.setText("not a valid number");
                 }
-
-
-
-
             }
         });
     }
